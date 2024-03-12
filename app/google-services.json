@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743357000894",
+    "project_id": "walldesginer",
+    "storage_bucket": "walldesginer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743357000894:android:7b74881dd682b7c26a82ef",
+        "android_client_info": {
+          "package_name": "com.example.kotlin1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHv8MpJoZ5IoGJ47zNy_K1RMo0rxB89zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
