@@ -6,6 +6,10 @@ plugins {
 }
 
 android {
+
+    buildFeatures {
+        viewBinding= true
+    }
     namespace = "com.example.kotlin1"
     compileSdk = 34
 
@@ -47,6 +51,8 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation(platform("com.google.firebase:firebase-bom:32.7.4"))
     implementation ("com.airbnb.android:lottie:4.1.0")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
 
 // Use the latest version available
 

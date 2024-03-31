@@ -1,10 +1,19 @@
 package com.example.kotlin1
 
+import AdapterClass
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-
+import com.example.kotlin1.DataClass
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.drawerlayout.widget.DrawerLayout
+import com.example.kotlin1.databinding.ActivityWallpaperBinding
+import android.content.res.Configuration
+import android.view.MenuItem
+import android.widget.Toast
+import androidx.core.view.GravityCompat
+import com.google.android.material.navigation.NavigationView
 class Wallpaper : AppCompatActivity() {
 
 
@@ -13,24 +22,31 @@ class Wallpaper : AppCompatActivity() {
     lateinit var imageList: ArrayList<Int>
     lateinit var titlList: ArrayList<String>
 
+
+    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var navigationView: NavigationView
+    private lateinit var toggle: ActionBarDrawerToggle
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wallpaper)
 
+
         imageList = arrayListOf(
             R.drawable.image,
-            R.drawable.image,
-            R.drawable.image,
+            R.drawable.img,
+            R.drawable.img,
             R.drawable.image,
             R.drawable.image,
 
         )
         titlList = arrayListOf(
-            "chirag",
-            "chirag",
-            "chirag",
-            "chirag",
-            "chirag",
+            "K. Rock",
+            "M. Rat",
+            "T Raja",
+            "Tiger",
+            "Dhoni",
 
         )
 
@@ -47,7 +63,9 @@ class Wallpaper : AppCompatActivity() {
             val dataClass = DataClass(imageList[i], titlList[i])
             dataList.add(dataClass)
         }
-        recyclerView.adapter= AdapterClass(dataList)
+        val adapter = AdapterClass(this, dataList) // Pass context and dataList to AdapterClass constructor
+        recyclerView.adapter = adapter
+//        recyclerView.adapter= AdapterClass(dataList)
     }
 
 }
