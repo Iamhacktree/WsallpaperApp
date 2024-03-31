@@ -1,8 +1,10 @@
 package com.example.kotlin1
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 
@@ -22,6 +24,12 @@ class Dashboard : AppCompatActivity() {
         textViewEmail = findViewById(R.id.textView2)
         textViewForFirstLetter = findViewById(R.id.textView4)
 
+        val gamezonelogin = findViewById<Button>(R.id.button4)
+        gamezonelogin.setOnClickListener {
+
+            val intent = Intent(applicationContext, Wallpaper::class.java)
+            startActivity(intent)
+        }
 
         val currentUser = auth.currentUser
 
