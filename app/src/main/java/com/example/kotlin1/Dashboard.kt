@@ -43,13 +43,9 @@ class Dashboard : AppCompatActivity() {
             signOut()
         }
 
-
-
-
         val gamezonelogin = findViewById<Button>(R.id.button4)
         gamezonelogin.setOnClickListener {
-
-            val intent = Intent(applicationContext, Wallpaper::class.java)
+            val intent = Intent(applicationContext, CategoryActivity::class.java)
             startActivity(intent)
         }
 
@@ -60,18 +56,10 @@ class Dashboard : AppCompatActivity() {
             val userEmail = currentUser.email
             val firstLetter = userEmail?.get(0)?.toUpperCase() ?: ""
             textViewForFirstLetter.text = "$firstLetter"
-
-
             textViewEmail.text = " $userEmail"
-
-
             val userName = userEmail?.substringBefore('@') ?: ""
             textUserName.text = userName
             Log.d("DashboardActivity", "User Email: $userEmail")
-
-
-//
-//
         } else {
             // User is not signed in, you can handle this case as needed
             Log.d("DashboardActivity", "No user signed in")
