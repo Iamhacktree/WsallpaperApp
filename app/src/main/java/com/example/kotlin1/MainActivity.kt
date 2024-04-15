@@ -12,8 +12,9 @@ class MainActivity : AppCompatActivity() {
 
         val gamezonelogin = findViewById<Button>(R.id.button2)
         gamezonelogin.setOnClickListener {
-            val intent = Intent(applicationContext, Gamezone::class.java)
+            val intent = Intent(applicationContext, CategoryActivity::class.java)
             startActivity(intent)
+
         }
 
     }

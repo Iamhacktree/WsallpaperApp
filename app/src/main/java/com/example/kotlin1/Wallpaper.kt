@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlin1.DataClass
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
-import com.example.kotlin1.databinding.ActivityWallpaperBinding
+//import com.example.kotlin1.databinding.ActivityWallpaperBinding
 import android.content.res.Configuration
 import android.view.MenuItem
 import android.widget.Toast
@@ -36,9 +36,12 @@ class Wallpaper : AppCompatActivity() {
         imageList = arrayListOf(
             R.drawable.image,
             R.drawable.img,
-            R.drawable.img,
-            R.drawable.image,
-            R.drawable.image,
+            R.drawable.bike1,
+            R.drawable.bike2,
+            R.drawable.mountain1,
+            R.drawable.space1,
+            R.drawable.scene1,
+            R.drawable.cars2,
 
         )
         titlList = arrayListOf(
@@ -46,7 +49,11 @@ class Wallpaper : AppCompatActivity() {
             "M. Rat",
             "T Raja",
             "Tiger",
-            "Dhoni",
+            "kishor",
+            "kunal",
+            "harsh",
+            "Tiger",
+
 
         )
 
@@ -65,7 +72,8 @@ class Wallpaper : AppCompatActivity() {
         }
         val adapter = AdapterClass(this, dataList) // Pass context and dataList to AdapterClass constructor
         recyclerView.adapter = adapter
-//        recyclerView.adapter= AdapterClass(dataList)
+
+///      recyclerView.adapter= AdapterClass(dataList)
     }
 
 }

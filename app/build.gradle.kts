@@ -9,6 +9,7 @@ android {
 
     buildFeatures {
         viewBinding= true
+        dataBinding= true
     }
     namespace = "com.example.kotlin1"
     compileSdk = 34

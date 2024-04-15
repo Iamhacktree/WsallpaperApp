@@ -57,5 +57,6 @@ class AdapterClass(private val context: Context, private val dataList: ArrayList
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imageView: ImageView = itemView.findViewById(R.id.firstimage)
+
     }
 }

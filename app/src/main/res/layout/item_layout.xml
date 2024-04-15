@@ -35,7 +35,7 @@
             android:layout_marginBottom="25dp"
             android:background="@android:color/transparent"
             android:gravity="center"
-            android:text="Rock"
+            android:text="Rock J"
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
