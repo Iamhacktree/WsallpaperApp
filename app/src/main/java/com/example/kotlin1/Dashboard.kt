@@ -1,5 +1,6 @@
 package com.example.kotlin1
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import android.widget.EditText
 
 
 class Dashboard : AppCompatActivity() {

@@ -31,14 +31,12 @@ class SpaceActivity : AppCompatActivity() {
         setContentView(R.layout.activity_space)
 
         imageList = arrayListOf(
-            R.drawable.image,
-            R.drawable.img,
-            R.drawable.bike1,
-            R.drawable.bike2,
-            R.drawable.mountain1,
             R.drawable.space1,
-            R.drawable.scene1,
-            R.drawable.cars2,
+            R.drawable.space2,
+            R.drawable.space3,
+            R.drawable.space4,
+            R.drawable.space1,
+
 
             )
         titlList = arrayListOf(
@@ -47,9 +45,6 @@ class SpaceActivity : AppCompatActivity() {
             "T Raja",
             "Tiger",
             "kishor",
-            "kunal",
-            "harsh",
-            "Tiger",
 
 
             )

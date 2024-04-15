@@ -31,14 +31,11 @@ class CarsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_cars)
 
         imageList = arrayListOf(
-            R.drawable.image,
-            R.drawable.img,
-            R.drawable.bike1,
-            R.drawable.bike2,
-            R.drawable.mountain1,
-            R.drawable.space1,
-            R.drawable.scene1,
             R.drawable.cars2,
+            R.drawable.cars1,
+            R.drawable.cars3,
+            R.drawable.cars4,
+            R.drawable.cars5,
 
             )
         titlList = arrayListOf(
@@ -47,10 +44,6 @@ class CarsActivity : AppCompatActivity() {
             "T Raja",
             "Tiger",
             "kishor",
-            "kunal",
-            "harsh",
-            "Tiger",
-
 
             )
         recyclerView = findViewById(R.id.recycleViewMain)

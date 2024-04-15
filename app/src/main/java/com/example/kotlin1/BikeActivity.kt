@@ -29,26 +29,19 @@ class BikeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bike)
         imageList = arrayListOf(
-            R.drawable.image,
-            R.drawable.img,
+            R.drawable.bike3,
+            R.drawable.bike4,
             R.drawable.bike1,
             R.drawable.bike2,
-            R.drawable.mountain1,
-            R.drawable.space1,
-            R.drawable.scene1,
-            R.drawable.cars2,
+            R.drawable.bike5,
 
             )
         titlList = arrayListOf(
-            "K. Rock",
-            "M. Rat",
-            "T Raja",
-            "Tiger",
-            "kishor",
-            "kunal",
-            "harsh",
-            "Tiger",
-
+            "",
+            "",
+            "",
+            "",
+            "",
 
             )
         recyclerView = findViewById(R.id.recycleViewMain)

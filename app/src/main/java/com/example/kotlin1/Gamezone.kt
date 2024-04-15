@@ -37,7 +37,7 @@ class Gamezone : AppCompatActivity() {
         val currentUser = auth.currentUser
         if (currentUser != null) {
             // User is already logged in, redirect to Dashboard
-            startActivity(Intent(this, Dashboard::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             finish() // Finish LoginActivity to prevent going back to it
         }
 
@@ -78,7 +78,7 @@ class Gamezone : AppCompatActivity() {
                     Toast.makeText(this, "Sign up successful", Toast.LENGTH_SHORT).show()
 
                     // Move to Dashboard screen (replace DashboardActivity::class.java with your Dashboard activity)
-                    startActivity(Intent(this, Dashboard::class.java))
+                    startActivity(Intent(this, StartScreenActivity::class.java))
                     finish()
                 } else {
                     // If sign up fails, display a message to the user.

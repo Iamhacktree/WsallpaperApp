@@ -34,10 +34,9 @@ class Wallpaper : AppCompatActivity() {
 
 
         imageList = arrayListOf(
-            R.drawable.image,
-            R.drawable.img,
-            R.drawable.bike1,
-            R.drawable.bike2,
+            R.drawable.scene2,
+            R.drawable.scene3,
+            R.drawable.mountain2,
             R.drawable.mountain1,
             R.drawable.space1,
             R.drawable.scene1,
@@ -52,7 +51,6 @@ class Wallpaper : AppCompatActivity() {
             "kishor",
             "kunal",
             "harsh",
-            "Tiger",
 
 
         )
