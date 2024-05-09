@@ -32,7 +32,9 @@ class Dashboard : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         textViewEmail = findViewById(R.id.textView2)
         textUserName = findViewById(R.id.textView)
-        textViewForFirstLetter = findViewById(R.id.textView4)
+        textViewForFirstLetter = findViewById(R.id.textView)
+
+
 
         val verifiedIcon = findViewById<ImageView>(R.id.verifiedIcon)
         verifiedIcon.setImageResource(R.drawable.img_2)

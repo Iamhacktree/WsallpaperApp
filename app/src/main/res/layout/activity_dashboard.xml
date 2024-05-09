@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#100E0E"
+    android:background="#9932CC"
     tools:context=".Dashboard">
 
     <TextView
@@ -18,32 +18,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintHorizontal_bias="0.132"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="130dp"
-        android:layout_height="113dp"
-        android:background="@drawable/circle_background"
-        android:gravity="center"
-        android:text="A"
-        android:textColor="#ffffff"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097" />
+        app:layout_constraintVertical_bias="0.567" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="191dp"
         android:layout_height="51dp"
-        android:backgroundTint="#322929"
-        android:text="visit Wallpapers"
+        android:backgroundTint="#ADD8E6"
+        android:text="BACKGROUNDS"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,9 +53,9 @@
         android:id="@+id/logoutButton"
         android:layout_width="235dp"
         android:layout_height="70dp"
-        android:backgroundTint="#151111"
-        android:text="Logout"
-        android:textColor="#FF0000"
+        android:backgroundTint="#add8e6"
+        android:text="Sign out"
+        android:textColor="#ffffff"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,17 +65,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="131dp"
-        android:layout_height="33dp"
+        android:layout_width="240dp"
+        android:layout_height="139dp"
         android:text="username"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.258" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
